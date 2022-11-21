@@ -1,0 +1,242 @@
+body{
+    margin: 0% auto;
+
+    background-attachment: fixed;
+
+    font-family: 'Montserrat';
+    font-size: 22px;
+    width: 100%;
+}
+
+
+.bvrm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: 60px;
+    background: #ff3b0a;
+    color: #fff;
+    font-size: 15px;
+
+
+}
+.infoCity{
+    font-size: 0.8em;
+    padding: 5px 5px;
+    width: 100%;
+    
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+    width: 100%;
+  
+}
+
+/*ELEMENTO 1*/
+.divlogo{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    min-height: 150px;
+    justify-content: center;    
+    align-items: center;
+  /* backdrop-filter: blur(25px);     /*             [OPICIONAL]         */ 
+  /* background: #262626;   /*                       [OPICIONAL]  COR DA LOGO ELEMENTO 1*/
+
+}
+.logo{
+    /*-webkit-animation:rotate-center .7s ease-in-out both;animation:rotate-center .7s ease-in-out both;*/ 
+    width: 60%;
+
+}
+@media only screen and (max-width: 400px)  {
+
+    .divlogo{
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        min-height: 150px;
+        justify-content: center;    
+        align-items: center;
+       /* backdrop-filter: blur(25px);   [OPICIONAL]         */ 
+       /* background: #262626; COR DA LOGO ELEMENTO 1*/
+    
+    }
+
+    .logo{
+        
+        /*-webkit-animation:rotate-center .7s ease-in-out both;animation:rotate-center .7s ease-in-out both;*/
+        width: 100%;
+    
+    }
+}
+
+@media only screen and (max-width: 500px)  {
+
+    .divlogo{
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        min-height: 150px;
+        justify-content: center;    
+        align-items: center;
+       /* backdrop-filter: blur(25px);   [OPICIONAL]         */ 
+       /* background: #262626; COR DA LOGO ELEMENTO 1*/
+    
+    }
+
+    .logo{
+        
+        /*-webkit-animation:rotate-center .7s ease-in-out both;animation:rotate-center .7s ease-in-out both;*/
+        width: 100%;
+    
+    }
+}
+
+
+
+/*HEADLINE*/
+.divHeadLine{
+
+  /*  backdrop-filter: blur(25px); /*  [OPICIONAL]         */ 
+
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 150px;
+    text-align: center;
+}
+.headLine{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+/*DIV DO VIDEO EMBED*/
+
+.itm{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+.videoSpace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Pessoas Assistindo*/
+.pessoas{
+
+    display: flex;
+   padding-top: 0px;
+   padding-bottom: 10px;
+   color: white;
+   /*backdrop-filter: blur(33px);*/
+  /* background-color: aliceblue;*/
+
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    font-size: 12px;
+}
+
+/*ROLETA DE DESCONTO*/
+.roletalink{
+    display: flex;
+    display: none;
+
+    padding-top: 30px;
+    padding-bottom: 10px;
+    /*background-color: #fff  ;*/
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.centralizar{
+    display: flex;
+    flex-direction: column;
+  /*  background-color: #fff  ;*/
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.txtButton{
+    color: #fff;
+    opacity: 1.0;
+    font-size: 18px;
+}
+.bbb{/*BOTÃO QUE LEVA PRO CHECK-OUT*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+    padding: 10px;
+    background-color: #75dc00;
+    color: #fff;
+    
+
+}
+
+#m777{
+    display: flex;
+    justify-content: center;    
+}
+
+.black{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+/*Animações*/
+.scale-up-center{-webkit-animation:scale-up-center .7s cubic-bezier(.39,.575,.565,1.000) 
+    infinite alternate both;animation:scale-up-center .7s cubic-bezier(.39,.575,.565,1.000) 
+    infinite alternate both;
+    width: 300px;
+    height: 60px;
+    color: white !important; 
+	background-color:#ff7f1d;
+    display: block;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*BOTÃO DESCONTO*/
+ @-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+ @keyframes scale-up-center{0%{-webkit-transform:scale(.8);transform:scale(.8)}100%{-webkit-transform:scale(1);transform:scale(1)}}    
+
+/*ELEMENTO 1*/
+ @-webkit-keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+ @keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+
+
+
+
+
+ 
